@@ -1,0 +1,46 @@
+========================-{ Autoscript Premium VPN LEGASI }-=====================
+
+--------------------------------------------------------------------------------
+
+   >>> Service & Port
+   - OpenSSH                   : 22
+   - OpenVPN                   : TCP 1194, UDP 2200
+   - OHP                       : 8000
+   - Stunnel4                  : 888, 777
+   - Dropbear                  : 109, 143
+   - Squid Proxy               : 3128, 8080 (limit to IP Server)
+   - Badvpn                    : 7300
+   - Nginx                     : 81
+   - Wireguard                 : 7070
+   - Shadowsocks-R             : 1443-1543
+   - SS-OBFS TLS               : 2443-2543
+   - SS-OBFS HTTP              : 3443-3543
+   - SSH SSL Websocket         : 443
+   - XRAY XTLS DIRECT          : 443
+   - XRAY XTLS SPLICE          : 443
+   - XRAY Vless TCP TLS        : 443
+   - XRAY Vless WS TLS         : 443
+   - XRAY Vmess WS TLS         : 443
+   - XRAY Trojan TCP           : 443
+   - XRAY Trojan WS TLS        : 443
+   - XRAY Shadowsocks TLS      : 443
+   - SSH Websocket             : 80 
+   - XRAY Vless WS None TLS    : 80
+   - XRAY Vmess WS None TLS    : 80
+   - XRAY Trojan WS None TLS   : 80
+   - XRAY Shadowsocks None TLS : 80
+
+--------------------------------------------------------------------------------
+
+   >>> Server Information & Other Features
+   - Timezone                  : Asia/Kuala_Lumpur (GMT +8)
+   - Fail2Ban                  : [ON]
+   - Dflate                    : [ON]
+   - IPtables                  : [ON]
+   - Auto-Reboot               : [ON]
+   - Auto Backup Status        : [OFF]
+   - IPv6                      : [OFF]
+   - Auto-Remove-Expired       : [ON]
+   - Installation Log --> /root/log-install.txt
+
+-----------------------------Script by VPN Legasi-------------------------------
